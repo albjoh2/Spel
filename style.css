@@ -1,0 +1,121 @@
+body {
+  background-color: rgb(211, 211, 211);
+  padding: 15px;
+}
+
+.container {
+  background: linear-gradient(
+    45deg,
+    rgb(37, 1, 37) 0%,
+    rgb(107, 14, 107) 20%,
+    rgb(138, 68, 163),
+    rgb(95, 17, 90) 89%,
+    rgb(34, 1, 32) 100%
+  );
+  margin: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  text-align: center;
+  padding: 10px;
+  padding-top: 6%;
+  padding-bottom: 9%;
+  max-width: 1000px;
+  max-height: 800px;
+}
+
+.rubrik {
+  font-size: 45px;
+  margin-top: 40px;
+  font-weight: lighter;
+  color: rgb(241, 227, 244);
+}
+
+.pi_content {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.459);
+  text-align: center;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-color: #7c7a76;
+}
+
+.pi {
+  font-size: 80px;
+  color: rgb(70, 37, 68);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* max-width: 500vw; */
+  word-wrap: break-word;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* CSS */
+.igen {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: 0.75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.igen:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.igen:focus {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+}
+
+.antal_decimaler {
+  position: relative;
+  color: rgb(171, 171, 171);
+  font-size: 18px;
+  text-align: left;
+  margin: 8%;
+  margin-left: 3%;
+  margin-top: 10px;
+  float: left;
+}
+
+.highscore {
+  position: relative;
+  color: rgb(186, 186, 186);
+  font-size: 18px;
+  text-align: left;
+  margin: 8%;
+  margin-top: 10px;
+  float: right;
+}
